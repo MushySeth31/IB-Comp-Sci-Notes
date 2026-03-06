@@ -86,3 +86,39 @@ Properties:
 ---
 
 ## Secondary Storage
+Long-term storage that stores data permanently
+
+Properties:
+- Non-volatile
+- Large memory, reaching to terabytes
+- Slowest memory
+
+---
+
+## Input/Output Devices (I/O)
+Devices that allow interaction between the user and the system
+
+Input Devices:
+- Keyboard
+- Mouse
+- Sensor
+
+Output Devices:
+- Monitor
+- Printer
+- Spearkers
+
+These devices are also called peripherals
+
+---
+
+## Graphics Processing Unit (GPU)
+Contains thousands of small cores
+Designed for massive parallel processing
+
+Used for:
+- Graphics rendering
+- AI/Machine learning
+- Simulations
+CPU -> General-purpose
+GPU -> Highly parallel, task-specific
