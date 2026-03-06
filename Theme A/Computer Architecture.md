@@ -50,3 +50,39 @@ Decides:
 - When data is moved
 - Which component is active
 
+---
+
+## Buses
+Communication pathways between components.
+
+Main bus types:
+- Address Bus - Memory Address
+- Data Bus - Actual data being transferred
+- Control Bus - Control signals (read/write, clock)
+
+---
+
+## Primary Storage
+Directly accessible by the CPU without asking another device for help.
+
+### Random Access Memory (RAM)
+Computer's active working memory.
+Any currently running programs is stored in RAM.
+
+Properties:
+- Allows multitasking (more ram, more programs open simultaneously)
+- Volatile (power off leads to data loss)
+- Faster than secondary storage, slower than registers
+
+### Read Only Memory (ROM)
+Memory that retains data even when power is off
+
+Properties:
+- Permanent instructions (BIOS)
+- Non-volatile
+- Used during boot process
+- Unchangeable
+
+---
+
+## Secondary Storage
