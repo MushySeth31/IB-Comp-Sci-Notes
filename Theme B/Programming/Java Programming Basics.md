@@ -22,7 +22,7 @@ A variable in Java has three components:
 - Value - The data assigned to the variable.
 
 Syntax:
-type varName = value;
+```type varName = value;```
 
 Example:
 ```java
