@@ -10,6 +10,8 @@
 - Buses
 - Input/Output Devices (I/O)
 
+---
+
 ## Central Processing Unit (CPU)
 The "brain" of the computer.
 Executes instructions and controls all operations.
@@ -19,4 +21,32 @@ Executes instructions and controls all operations.
 - Arithmetic Logic Unit (ALU)
 - Control Unit (CU)
 
+---
+
 ### Registers
+Extremely tiny, ultra-fast memory located inside the CPU.
+Measured in bytes
+
+### Key Registers:
+- Program Counter (PC) - Address of next instruction
+- Memory Address Register (MAR) - Holds address for access
+- Memory Data Register (MDR) - Data being transferred to/from RAM
+- Accumulator (ACC) - Intermediate result stored
+- Instruction Register (IR) - Current instruction being executed
+
+---
+
+### Arithmetic Logic Unit (ALU)
+Performs calculations and logical operations. Used whenever the program needs math or decision-making.
+
+---
+
+### Control Unit (CU)
+The "conductor" of the CPU.
+Directs and coordinates all components.
+
+Decides:
+- Which instruction to execute
+- When data is moved
+- Which component is active
+
