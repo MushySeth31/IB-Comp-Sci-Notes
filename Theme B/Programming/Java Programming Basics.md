@@ -9,10 +9,12 @@
 - Selection Statements
 - Loops
 
-### Variables
+## Variables
 
 A variable is a named reference to a value stored in memory.
 It allows programs to store, access, and modify data during execution.
+
+---
 
 ## Variable Scope
 
@@ -37,6 +39,8 @@ public class Main {
     }
 }
 ```
+
+---
 
 ### Global Variables
 
