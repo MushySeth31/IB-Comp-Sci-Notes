@@ -16,7 +16,9 @@
 A variable is a named reference to a value stored in memory.
 It allows programs to store, access, and modify data during execution.
 
-### Variable Scope
+---
+
+## Variable Scope
 
 Variables can be catagorized based on where they are declared and where they can be accessed.
 
