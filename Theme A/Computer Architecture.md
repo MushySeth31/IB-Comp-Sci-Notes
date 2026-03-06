@@ -75,7 +75,7 @@ Properties:
 - Faster than secondary storage, slower than registers
 
 ### Read Only Memory (ROM)
-Memory that retains data even when power is off
+Memory that retains data even when power is off.
 
 Properties:
 - Permanent instructions (BIOS)
@@ -86,7 +86,7 @@ Properties:
 ---
 
 ## Secondary Storage
-Long-term storage that stores data permanently
+Long-term storage that stores data permanently.
 
 Properties:
 - Non-volatile
@@ -96,7 +96,7 @@ Properties:
 ---
 
 ## Input/Output Devices (I/O)
-Devices that allow interaction between the user and the system
+Devices that allow interaction between the user and the system.
 
 Input Devices:
 - Keyboard
@@ -113,8 +113,8 @@ These devices are also called peripherals
 ---
 
 ## Graphics Processing Unit (GPU)
-Contains thousands of small cores
-Designed for massive parallel processing
+Contains thousands of small cores.
+Designed for massive parallel processing.
 
 Used for:
 - Graphics rendering
@@ -122,5 +122,7 @@ Used for:
 - Simulations
 
 CPU -> General-purpose
+
 GPU -> Highly parallel, task-specific
+
 
