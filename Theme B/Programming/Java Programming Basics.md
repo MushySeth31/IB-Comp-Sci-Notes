@@ -1,5 +1,2 @@
-variables
-I/O
-arithmetic and logic operations
-conditional statements
-loops
+# Java Programming Basics
+Basic fundamentals of Java
