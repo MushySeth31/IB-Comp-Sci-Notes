@@ -120,5 +120,7 @@ Used for:
 - Graphics rendering
 - AI/Machine learning
 - Simulations
+
 CPU -> General-purpose
 GPU -> Highly parallel, task-specific
+
