@@ -18,7 +18,7 @@ It allows programs to store, access, and modify data during execution.
 
 ### Variable Scope
 
-Variables can be catagorized based on where they are declared and where they can be accessed
+Variables can be catagorized based on where they are declared and where they can be accessed.
 
 ### Local Variables
 
@@ -62,4 +62,4 @@ public class Main {
     }
 }
 ```
-Notice how `global_var` is accessed inside `func()` and the `main()`.
+Notice how `global_var` is accessed inside `func()` and `main()`.
