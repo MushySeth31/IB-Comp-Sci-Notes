@@ -21,6 +21,9 @@ A variable in Java has three components:
 - Variable Name - A unique identifier following Java naming rules.
 - Value - The data assigned to the variable.
 
+Syntax:
+type varName = value;
+
 Example:
 ```java
 int var = 10;
