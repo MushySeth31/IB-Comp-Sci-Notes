@@ -1,4 +1,6 @@
 # Java Programming Basics
+#### Basic fundamentals of Java programming
+
 ## Contents:
 - Variables
 - I/O
@@ -6,3 +8,5 @@
 - Conditional Statements
 - Selection Statements
 - Loops
+
+
