@@ -16,6 +16,20 @@
 A variable is a named reference to a value stored in memory.
 It allows programs to store, access, and modify data during execution.
 
+A variable in Java has three components:
+- Data Type - What kind of data is stored.
+- Variable Name - A unique identifier following Java naming rules.
+- Value - The data assigned to the variable.
+
+Example:
+```java
+int var = 10;
+```
+Here:
+- int - Data Type
+- var - Variable Name
+- 10 - Value
+
 ---
 
 ## Variable Scope
