@@ -219,5 +219,6 @@ No pipelining:
 One core does all the fetch, decoding, and executing.
 
 With pipelining:
-
-
+- Core A -> Fetch
+- Core B -> Decode
+- Core C -> Execute
