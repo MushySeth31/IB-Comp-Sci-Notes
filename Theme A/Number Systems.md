@@ -12,10 +12,10 @@
 Number system with base value of 10, ranging from 0-9. This is what humans use.
 
 #### Example:
-$42_10$
+$42_(10)$
 
 Expanded:
-$(4 x 10^1) + (2 x 10^0)$
+$(4 * 10^1) + (2 * 10^0)$
 
 #### Decimals work in powers of 10.
 
@@ -27,9 +27,10 @@ Number system with base value of 2, ranging from 0-1. This is what computers use
 #### Example:
 $1011_2$
 
-Expanded:
+#### Expanded:
 $(1 x 2^3) + (0 x 2^2) + (1 x 2^1) + (1 x 2^0)$
-$8 + 0 + 2 + 1 = 11_10$
+
+$= 8 + 0 + 2 + 1 = 11_(10)$
 
 #### Binary work in powers of 2.
 
