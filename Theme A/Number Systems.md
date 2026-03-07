@@ -12,10 +12,10 @@
 Number system with base value of 10, ranging from 0-9. This is what humans use.
 
 #### Example:
-$42_(10)$
+$42_{10}$
 
 Expanded:
-$(4 * 10^1) + (2 * 10^0)$
+$(4 \times 10^1) + (2 \times 10^0)$
 
 #### Decimals work in powers of 10.
 
@@ -28,9 +28,11 @@ Number system with base value of 2, ranging from 0-1. This is what computers use
 $1011_2$
 
 #### Expanded:
-$(1 x 2^3) + (0 x 2^2) + (1 x 2^1) + (1 x 2^0)$
+$(1 \times 2^3) + (0 \times 2^2) + (1 \times 2^1) + (1 \times 2^0)$
 
-$= 8 + 0 + 2 + 1 = 11_(10)$
+$= 8 + 0 + 2 + 1$
+
+$ = 11_{10}$
 
 #### Binary work in powers of 2.
 
@@ -43,11 +45,10 @@ This links to:
 - CPU operations
 - Memory storage
 
-1 bit = 0 or 1
-
-1 nibble = 4 bits
-
-1 byte = 2 nibbles = 8 bits
+Bit converstion:
+- 1 bit = 0 or 1
+- 1 nibble = 4 bits
+- 1 byte = 2 nibbles = 8 bits
 
 ---
 
