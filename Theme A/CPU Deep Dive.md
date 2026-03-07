@@ -164,9 +164,9 @@ Tries to predict future requests.
 Cache miss are major performance killers.
 
 ### Levels of Cache
-- L_1 -> Fastest, Smallest, Closest
-- L_2 -> Larger, Slower than L_1
-- L_3 -> Shared between cores, Largest, Slowest
+- L<sub>1</sub> -> Fastest, Smallest, Closest
+- L<sub>2</sub> -> Larger, Slower than L<sub>1</sub>
+- L<sub>3</sub> -> Shared between cores, Largest, Slowest
 
 CPU checks cache -> RAM -> Secondary Storage
 
@@ -201,12 +201,12 @@ CPU cannot execute directly from RAM.
 ## Multicore Processors
 Each core has:
 - Its own register
-- Usually its own L_1 cache
+- Usually its own L<sub>1</sub> cache
 
 Like a mini-CPU
 
 Shares:
-- L_3 cache
+- L<sub>3</sub> cache
 - RAM
 
 ### Pipelining
