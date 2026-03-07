@@ -192,7 +192,7 @@ More ram allows more programs to be open simultaneously.
 
 ### Ram interaction with CPU
 Data must move:
-  RAM -> Cache -> Register
+- RAM -> Cache -> Register
 
 CPU cannot execute directly from RAM.
 
@@ -210,4 +210,14 @@ Shares:
 - RAM
 
 ### Pipelining
+A processor technique that breaks instruction processing into sequential stages and overlaps them, allowing multiple instructions to work on different stages simultaneously.
+
+#### Example:
+
+No pipelining:
+
+One core does all the fetch, decoding, and executing.
+
+With pipelining:
+
 
