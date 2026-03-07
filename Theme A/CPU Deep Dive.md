@@ -56,7 +56,7 @@ Why the need for registers:
 - Registers eliminate delays
 - Every instruction depends on registers
 
-Key Registers:
+## Key Registers:
 
 ### Program Counter (PC)
 Stores the address of the next instruction, automatically increments after each fetch. Changes during jump/branches.
@@ -74,8 +74,81 @@ stores the data being transferred to/from RAM. Works with data bus.
 Stores the intermediate result (ALU result). Common in simple CPU architecture.
 
 MAR -> Where
+
 MDR -> What
 
 ---
 
 ## Buses
+The communication system between the CPU and memory
+
+## Key Buses:
+
+### Address Bus
+One-way communication (CPU -> Memory).
+
+Carries the memory address.
+
+### Data Bus
+Two way communication.
+
+Transfers actual data.
+
+### Control Bus
+Carries signals:
+- Read/Write
+- Clock
+- Interrupts
+
+Control bus is how the CU controls everything else.
+
+---
+
+## Instruction Cycle (Fetch-Decode-Execute)
+The process that the CPU follows from boot-up until the computer has shut down in order to process instructions.
+
+### Fetch Stage
+The CPU retrives an instruction from RAM.
+1. PC -> MAR
+2. Address bus -> RAM
+3. Insruction (from RAM) -> MDR
+4. MDR -> IR
+
+Fetch is about getting instructions.
+
+### Decode Stage
+CU decodes instruction in IR.
+
+Determines:
+- Operation type
+- Operand location
+- Required control signal
+
+### Execute Stage
+1. ALU performs operation.
+2. Data is moved between registers/memory.
+3. Result is stored in the AC or RAM.
+
+The CPU repeats this process thousands to billions of times per second.
+
+---
+
+## Memory
+Data accessed by the CPU,
+
+Organized as a hierarchy to balance:
+- Speed
+- Cost
+- Capacity
+
+| Feature | Registers | Cache | RAM | Secondary Storage |
+|----------|----------|----------|----------|----------|
+| Location   | Inside CPU   | Near CPU   | Seperate   | Farther from RAM   |
+| Speed   | Fastest   | Very Fast   | Slower   | Slowest   |
+| Size   | Tiny   | Small   | Large   | Extremely Massive   |
+| Cost   | Very High   | High   | Lower   | Lowest   |
+
+---
+
+## Cache Memory
+
