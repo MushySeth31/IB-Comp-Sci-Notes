@@ -143,7 +143,7 @@ Organized as a hierarchy to balance:
 
 | Feature | Registers | Cache | RAM | Secondary Storage |
 |----------|----------|----------|----------|----------|
-| Location   | Inside CPU   | Near CPU   | Seperate   | Farther from RAM   |
+| Location   | Inside CPU   | Near CPU   | Motherboard   | Motherboard or connected via cables   |
 | Speed   | Fastest   | Very Fast   | Slower   | Slowest   |
 | Size   | Tiny   | Small   | Large   | Extremely Massive   |
 | Cost   | Very High   | High   | Lower   | Lowest   |
@@ -151,4 +151,63 @@ Organized as a hierarchy to balance:
 ---
 
 ## Cache Memory
+Stores frequently used data/instructions.
+
+Reduces RAM access.
+
+Tries to predict future requests.
+
+#### Cache Hit -> Data found in cache -> Instant
+
+#### Cache Miss -> Data not found in cache -> Fetch from RAM -> Slow
+
+Cache miss are major performance killers.
+
+### Levels of Cache
+- L_1 -> Fastest, Smallest, Closest
+- L_2 -> Larger, Slower than L_1
+- L_3 -> Shared between cores, Largest, Slowest
+
+CPU checks cache -> RAM -> Secondary Storage
+
+### Locality of Reference
+Temporal -> Recently used data is likely used
+
+Spatial -> Nearby data likely used soon
+
+---
+
+## RAM
+Computer's active working memory.
+
+Stores:
+- Programs
+- Active data
+
+Ram is volatile. If power turns off, contents disappear, any unsaved data is lost.
+
+Slower than cache, faster than secondary storage.
+
+More ram allows more programs to be open simultaneously.
+
+### Ram interaction with CPU
+Data must move:
+  RAM -> Cache -> Register
+
+CPU cannot execute directly from RAM.
+
+---
+
+## Multicore Processors
+Each core has:
+- Its own register
+- Usually its own L_1 cache
+
+Like a mini-CPU
+
+Shares:
+- L_3 cache
+- RAM
+
+### Pipelining
 
