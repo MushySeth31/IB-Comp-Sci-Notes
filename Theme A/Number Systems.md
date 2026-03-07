@@ -32,7 +32,7 @@ $(1 \times 2^3) + (0 \times 2^2) + (1 \times 2^1) + (1 \times 2^0)$
 
 $= 8 + 0 + 2 + 1$
 
-$ = 11_{10}$
+$= 11_{10}$
 
 #### Binary work in powers of 2.
 
