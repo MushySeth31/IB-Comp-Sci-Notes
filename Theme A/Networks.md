@@ -57,4 +57,18 @@ Phone - Smartwatch - Earphones
 ---
 
 ## Network Communication
+Data on a network is sent in packets.
+
+Instead of one big message: HELLO WORLD
+
+It is broken into packets:
+1: HEL
+2: LO
+3: WOR
+4:LD
+
+Each packet contains a header, payload, and sometimes a trail for error checking
+
+---
+
 
