@@ -14,3 +14,10 @@ Devices include:
 ### Types of networks
 #### LAN (Local Access Network)
 Network inside a small location.
+Areas such as:
+- Home
+- School
+- Office
+
+#### Usually high bandwidth and low latency
+#### Uses Ethernet or Wi-Fi
