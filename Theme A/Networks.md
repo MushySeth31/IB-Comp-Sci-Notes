@@ -1,10 +1,7 @@
 # Computer Networks
-#### A system where multiple computing devices are connected to communicate and share resources.
-Devices include:
-- Computers
-- Phones
-- Servers
-- Routers
+#### A system of interconnected computing devices (i.e. computers, phones, routers, etc.) that communicate and share data and resources with each other.
+
+#### Computer networks can share data, regardless of how far the devices are.
 
 ### Parts of a network:
 - Nodes -> Devices connected to a network
@@ -43,5 +40,21 @@ Phone - Smartwatch - Earphones
 ---
 
 ## Core Networking Devices
+### Network Interface Card (NIC)
+- Hardware that connects devices to a network
+- Contains MAC address which uniquely identifies devices as LAN
 
+### Switches
+- Connect multiple devices in a LAN and forward frames to the correct destination using MAC address
+- Reduces unnecessary broadcasting and improves network efficiency
+
+### Routers
+- Connects different networks (LAN to WAN) and route packets based on IP address
+
+### WAPs (Wireless Access Points)
+- Allows wireless devices to be connected to a wired LAN
+
+---
+
+## Network Communication
 
