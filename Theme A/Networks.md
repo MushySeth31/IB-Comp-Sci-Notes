@@ -12,12 +12,36 @@ Devices include:
 - Protocols -> Rules that govern how data is formatted, transmitted, and interpreted across the network
 
 ### Types of networks
-#### LAN (Local Access Network)
+#### LAN (Local Area Network)
 Network inside a small location.
+
 Areas such as:
 - Home
 - School
 - Office
 
-#### Usually high bandwidth and low latency
-#### Uses Ethernet or Wi-Fi
+Usually high bandwidth and low latency
+Uses Ethernet or Wi-Fi
+
+#### Example Layout:
+Computers - Switches - Router - Internet
+
+#### WAN (Wide Area Network)
+Large scale networks connecting multiple LANS. Covers cities or countries.
+
+Biggest WAN is the Internet.
+
+#### Example Layout:
+Home LAN - ISP - Global Internet - Servers
+
+#### PAN (Personal Area Network)
+Very short range connection, around a person. Usually Bluetooth
+
+#### Example Layout:
+Phone - Smartwatch - Earphones
+
+---
+
+## Core Networking Devices
+
+
