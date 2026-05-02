@@ -130,9 +130,11 @@ OSI Layers:
 Similar to OSI model, just modernized
 
 TCP/IP Layers:
+
 1. Application
 - Provides network communication services directly to user applications
 - Allows applications to send and receive data over the network
+
 
 2. Transport
 - Deliver data from one device to another
@@ -140,11 +142,13 @@ TCP/IP Layers:
 - Manages end-to-end communication between devices
 - Breaks data into packets
 
+
 3. Internet
 - Addressing and routing data across networks
 - Assigns IP addresses
 - Determines best route for data
 - Routes packets between networks
+
 
 4. Network Access
 - Handles communication between a device and the physical network
@@ -152,6 +156,7 @@ TCP/IP Layers:
 - Uses hardware (network cards)
 - Send data through cables or wireless signals
 - Ensures data actually leaves the device and enters the network medium
+
 
 #### OSI Application, Presentation, and Session --> TCP/IP Application
 #### OSI Transport --> TCP/IP Transport
