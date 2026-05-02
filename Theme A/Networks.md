@@ -130,11 +130,9 @@ OSI Layers:
 Similar to OSI model, just modernized
 
 TCP/IP Layers:
-
 1. Application
 - Provides network communication services directly to user applications
 - Allows applications to send and receive data over the network
-
 
 2. Transport
 - Deliver data from one device to another
@@ -142,13 +140,11 @@ TCP/IP Layers:
 - Manages end-to-end communication between devices
 - Breaks data into packets
 
-
 3. Internet
 - Addressing and routing data across networks
 - Assigns IP addresses
 - Determines best route for data
 - Routes packets between networks
-
 
 4. Network Access
 - Handles communication between a device and the physical network
@@ -156,7 +152,6 @@ TCP/IP Layers:
 - Uses hardware (network cards)
 - Send data through cables or wireless signals
 - Ensures data actually leaves the device and enters the network medium
-
 
 #### OSI Application, Presentation, and Session --> TCP/IP Application
 #### OSI Transport --> TCP/IP Transport
@@ -166,5 +161,179 @@ TCP/IP Layers:
 ---
 
 ## Network Performance
+### Bandwidth
+Maximum capacity of the link.
 
+Measured in bits per second (bps)
 
+### Throughput
+Actual rate achieved.
+
+### Latency (Ping)
+Delay between sending and receiving data.
+
+Measured in miliseconds (ms).
+
+### Jitter
+Variation in delay.
+
+Like uncertainties for ping.
+
+---
+
+## Network Topology
+Physical or logical arrangement of devices in a netork and how data flows between them.
+
+Directly affects:
+- Reliability
+- Transmission speed
+- Scalability
+- Data collisions
+- Cost
+
+### Star Topology
+#### Strucutre
+All devices are connected to a central device (A switch called "the hub").
+
+#### Functions
+- Centralizes traffic control
+- Reduces data collisions
+- Simplifies troubleshooting
+
+#### Reliability
+High reliablity for individual device failure. However, if hub fails, entire network collapses.
+
+#### Transmission Speed
+Fast, as modern switches allow full-duplex communication (two devices can transmit and receive data simultaneously).
+
+#### Scalability
+Moderately scalable, can add devices by connecting to the hub.
+
+#### Cost
+Moderate, requires more cabling than some topologies.
+
+#### Used in homes, small offices, and classrooms because of reliability and simplicity being prioritized.
+
+### Mesh Topology
+#### Structure
+Devices are interconnected with multiple redundant paths
+
+#### Functions
+- Multiple routing for data
+- Ensures fault tolerance
+- Prevents single points of failure
+
+#### Reliability
+Very high reliability. If one line fails, data reroutes.
+
+#### Transmission Speed
+Fast in well-designed systems.
+
+#### Scalability
+Complex scalability, connections grow rapidly.
+
+#### Cost
+High cost, requires many cables and parts
+
+#### Used in data centers, governments, mission-critical systems, and internet backbone due to highly important reliability.
+
+### Hybrid Topology
+#### Structure
+Combination of two or more topologies.
+
+#### Functions
+- Balance cost and reliability
+- Enables scalable enterprise networks
+
+#### Reliability
+Depending on design, usually high.
+
+#### Transmission Speed
+Optimized through hierarchical structure.
+
+#### Scalability
+Highly scalable, suitable for large organizations
+
+#### Cost
+Moderate to high
+
+#### Used in corporations, universities, government departments, and large enterprises.
+#### Most real-world networks today are hybrid.
+
+## Network Architecure
+How communication is structured and organized.
+
+Two main architecture models:
+- Client-Server
+- Peer-to-Peer (P2P)
+
+### Client-Server Architecture
+Centralized model where clients request services from dedicated server.
+
+#### Structure
+Clients --> request services
+
+Server --> provides services
+
+#### Benefits
+- Centralized control
+- Better security management
+- Easier backups
+- Scalable
+
+#### Drawbacks
+- Server failure affects many users
+- Higher setup cost
+-  Requires maintainance
+
+#### Used for web browsing, email, online banking, corporate databases, VoIP systems.
+
+### Peer-to-Peer (P2P) Architecture
+Decentralized model where each device can act as both client and server.
+
+#### Structure
+PC <--> PC <--> PC
+
+#### Benefits
+- Low cost
+- No central dependency
+- Resilient in distributed systems
+
+#### Drawbacks
+- Harder to manage
+- Security challenges
+- Limited centralized control
+
+#### Used for file sharing, VoIP between users, blockchain, and distributed computing.
+
+---
+
+## Network Segmentation
+Process of dividing a network into smaller isolated segments.
+
+Improves:
+- Performance --> Reduces broadcast traffic and congestion
+- Security --> Limits attack spread
+- Resource management --> Allows better control over traffic flow
+
+### Methods of Network segmentation:
+#### Subnetting
+Divides an IP network into smaller logical networks.
+
+Purpose:
+- Efficient IP address use
+- Reduced broadcast domain size
+- Improved routing control
+
+#### Virtual Local Area Network (VLAN)
+Logically separates devices within the same physical switch.
+
+Functions:
+- Creates separate broadcast domains
+- Improves security
+- Reduces congestion
+
+#### Even if physically connected to the same switch, devices remain logically separated.
+
+#### Network Segments (Physical Segmentation)
+Using separate switches or routers to isolate network areas.
