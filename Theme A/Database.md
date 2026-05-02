@@ -26,3 +26,16 @@ System that handles:
 - Data sharing --> Allow multiple authorized users or systems to access and use the same centralized database simultaneously.
 - Concurrency control --> Ensures multiple users can access or modify data at the same time without causing conflict or inconsistencies.
 - Backup and Recovery --> Process of creating copies of data and restoring  the database to a consistent state after system failure or data loss.
+
+---
+## Relational Database
+System that organizes data into structured table
+
+### Table
+Consists of:
+- Rows (records/tuples)
+- Columns (fields/attributes)
+
+
+
+
