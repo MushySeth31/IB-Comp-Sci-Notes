@@ -78,4 +78,88 @@ Protocol data units (PDUs) layers:
 
 ---
 
+## Network Models
+Layerd models describe how data travels through different conceptual layers.
+
+### Open System Interconnection model (OSI)
+Reference frameork for how communication should proceed from one aplication to another through a network.
+
+OSI Layers:
+1. Application
+- Network services directly to user applications
+- Interface between user's application and the network
+- Allows softwares (browsers) to access network communcation services
+
+2. Presentation
+- Ensures data is formatted in a way tha the receiving system can understand
+- Responsible for data formatting, encryption and decryption, and compression
+
+3. Session
+- Manages and controls communication sessions between devices
+- Establishes, maintains, and terminates the session
+- Conversations between devices must stay organized and synchronized
+
+4. Transport
+- End-to-end communication between devices
+- Ensures data is delivered reliably, set in correct order, and flow is controlled
+- Manages delivery process between sender and receiver
+
+5. Network
+- Determines how data travels from one network to another
+- Assigns logical addresses (IP addresses)
+- Determines best route for data
+- Routes packets across networks
+- Responsible for getting data from source to destination across multiple networks
+
+6. Data Link
+- Manages communication between devices on the same network
+- Uses physical (MAC) address
+- Organizes data into frames
+- Detects transimssion errors
+- Ensures data is moved correctly in a local network
+
+7. Physical
+- Transmitting raw bits over a physical medium
+- Sends electrical, optical, or radio signals
+- Defines cables, voltages, and signal standards
+- Physically moves data from one device to another
+
+#### Each layer serves the one above it and is served by the one below it, making network design modular and interoperable.
+
+### TCP/IP Model
+Similar to OSI model, just modernized
+
+TCP/IP Layers:
+1. Application
+- Provides network communication services directly to user applications
+- Allows applications to send and receive data over the network
+
+2. Transport
+- Deliver data from one device to another
+- Must arrive at the correct destination device, delivered reliably, and organized correctly
+- Manages end-to-end communication between devices
+- Breaks data into packets
+
+3. Internet
+- Addressing and routing data across networks
+- Assigns IP addresses
+- Determines best route for data
+- Routes packets between networks
+
+4. Network Access
+- Handles communication between a device and the physical network
+- Controls how data is physically transmitted
+- Uses hardware (network cards)
+- Send data through cables or wireless signals
+- Ensures data actually leaves the device and enters the network medium
+
+#### OSI Application, Presentation, and Session --> TCP/IP Application
+#### OSI Transport --> TCP/IP Transport
+#### OSI Network --> TCP/IP Internet
+#### OSI Data Link and Physical --> TCP/IP Network Access
+
+---
+
+## Network Performance
+
 
