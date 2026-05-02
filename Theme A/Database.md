@@ -36,6 +36,33 @@ Consists of:
 - Rows (records/tuples)
 - Columns (fields/attributes)
 
+#### Example: STUDENT(StudentID, Name, Age)
 
+### Keys
+- Primary Key (PK) --> Uniquely identifies a record
+- Foreign Key (FK) --> Links tables
+
+---
+
+## Relationships
+### One-to-One (1:1)
+- One record <--> one record
+- Oftern share PK or use FK
+
+### One-to-Many (1:M)
+- One record --> many records
+- FK is on the many side
+
+### Many-to-Many (M:M)
+- Cannot be implemented directly
+- Must usa a junction table (table containing PK of table A and table B)
+
+#### Example: Composite PK = (tableAID, tableBID)
+
+This is to:
+- avoid redundancy
+- resolve many-to-many relationship
+
+---
 
 
