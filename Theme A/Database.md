@@ -1,5 +1,5 @@
 # Database
-#### An organized collection of related data stored electronically and managed by a Database Management System (DBMS)
+#### An organized collection of related data stored electronically and managed by a Database Management System (DBMS).
 
 ## Database Management System (DBMS)
 System that handles:
@@ -19,5 +19,10 @@ System that handles:
 | Integrity   | Not enforced   | Enforced   |
 
 ### Advantages
-- Reduced redundancy --> Minimizing duplication of data within a database
-- -d
+- Reduced redundancy --> Minimizing duplication of data within a database by storing each piece of information only once and linking related data using keys.
+- Improved consistency --> Ensuring data remains accurate and uniform throughout the database. Changes made in one place are correctly reflected everywhere it is used.
+- Better security --> Protecting data from unauthorized access, modification, or deletion by using authentication, authorization, and access control mechanisms.
+- Faster querying --> Retrieve specific data efficiently from large datasets using structured queries, indexing, and optimized search mechanisms.
+- Data sharing --> Allow mmultiple authorized users or systems to access and use the same centralized database simultaneously.
+- Concurrency control --> Ensures multiple users can access or modify data at the same time without causing conflict or inconsistencies.
+- Backup and Recovery --> Process of creating copies of data and restoring  the database to a consistent state after system failure or data loss.
