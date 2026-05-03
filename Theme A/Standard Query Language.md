@@ -73,12 +73,12 @@ WHERE conditions;
 ```
 
 #### Comparison Operators
-|Operator|Meaning|
-------------------
-|=|equal|
-|!= / <>|not equal|
-|>, <|greater/less|
-|>=, <=|greater/less or equal to|
+| Operator | Meaning |
+----------------------
+| = | equal |
+| != / <> | not equal |
+| >, < | greater/less |
+| >=, <= | greater/less or equal to |
 
 #### Logical Operators
 ```sql
