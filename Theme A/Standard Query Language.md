@@ -85,5 +85,48 @@ WHERE conditions;
 SELECT * FROM STUDENT
 WHERE Age = 18 AND Name = 'John';
 ```
-- AND --> both true
-- OR --> at least one true
+- `AND` --> both true
+- `OR` --> at least one true
+
+### ORDER BY
+Sort the result by query.
+
+#### Example:
+```sql
+SELECT Name FROM Student
+ORDER BY Name ASC;
+```
+- `ASC` --> ascending (default arrangement)
+- `DESC` --> descending
+
+### INSERT
+Add new records to a table.
+
+#### Example:
+```sql
+INSERT INTO STUDENT (StudentID, Name, Age)
+VALUES ('ID3', 'Alex', 17);
+```
+
+### UPDATE
+Modify existing table.
+
+#### Example:
+```sql
+UPDATE STUDENT
+SET Age = 18
+WHERE StudentID = 'ID3'
+```
+
+#### If no `WHERE` --> updates ALL records
+
+### DELETE
+Remove a record from table.
+
+#### Example:
+```sql
+DELETE FROM STUDENT
+WHERE StudentID = 'ID3';
+```
+
+#### If no `WHERE` --> deletes entire table data
