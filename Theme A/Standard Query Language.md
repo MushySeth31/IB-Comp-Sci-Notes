@@ -7,7 +7,8 @@
 ### Data Query Language (DQL)
 Retrieve data from a database.
 
-#### Commands: `SELECT`
+#### Commands: 
+`SELECT`
 
 ### Data Manipulation Language (DML)
 Modify data stored in tables.
@@ -44,7 +45,7 @@ SELECT column_name
 FROM table_name;
 ```
 
-inline:
+Inline:
 ```sql
 SELECT column_name FROM table_name;
 ```
@@ -62,3 +63,27 @@ FROM table_name;
 ```
 
 ### WHERE
+Filter records based on specific conditions.
+
+#### Example:
+```sql
+SELECT column_name
+FROM table_name
+WHERE conditions;
+```
+
+#### Comparison Operators
+|Operator|Meaning|
+-----
+|=|equal|
+|!= / <>|not equal|
+|>, <|greater/less|
+|>=, <=|greater/less or equal to|
+
+#### Logical Operators
+```sql
+SELECT * FROM STUDENT
+WHERE Age = 18 AND Name = 'John';
+```
+- AND --> both true
+- OR --> at least one true
