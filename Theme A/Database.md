@@ -36,11 +36,42 @@ Consists of:
 - Rows (records/tuples)
 - Columns (fields/attributes)
 
-#### Example: STUDENT(StudentID, Name, Age)
+Example: STUDENT TABLE
+| StudentID (PK) | Name | Age |
+|----------|----------|----------|
+| 0   | Guy   | 17   |
+| 1   | Reed   | 19   |
+
+#### The first row holds the labels (start at row index 1)
+#### The first column holds the index (start from 0)
 
 ### Keys
 - Primary Key (PK) --> Uniquely identifies a record
 - Foreign Key (FK) --> Links tables
+
+### Benefits:
+- Data integrity enforces rules to ensure data is accurate and valid
+- Data consistency ensures that all users see the same correct data, with no conflicting updates occur
+- Concurrency control allows multiple users to access the database simultaneously wihtout conflict
+- Reliable transaction processing (ACID)
+  - Atomicity --> All or nothing
+  - Consistency --> Valid state maintained
+  - Isolation --> Transactions do not interfere
+  - Durability --> Changes are permanent
+- Data retrieval (SQL)
+- Secure, providing authentication and authorization
+- Can handle growing data and users
+- Widely used, has strong documentation
+
+### Limitations:
+- Rigid schema
+  - Requires a predefined structure
+  - Hard to modify later
+- Requires careful planning, normalization, relationship mapping
+- Strugles with large data
+- Unstructured daa handling
+- Hierarchical data handling
+- Object-relational impedance mismatch
 
 ---
 
@@ -65,4 +96,45 @@ This is to:
 
 ---
 
+## Database Schema
+Blueprint or structure of a database.
 
+#### Defines:
+- What data is stored
+- How it is organized
+- How different parts relate
+
+#### Levels of abstraction:
+1. Conceptual schema
+2. Logical schema
+3. Physical schema
+
+### Conceptual Schema
+Describes the database at the highest level of abstraction.
+
+#### Focus:
+- What data is needed
+- What are the main entities
+- What is the relationship between the entities
+
+#### No technical details yet.
+
+### Logical Schema
+Translates the conceptual schema into a structured format that a database system can understand.
+
+#### Contains:
+- Tables
+- Columns (attributes)
+- Data types
+- Primary keys
+- Foreign keys
+- Constraints
+
+### Physical Schema
+Describes how the database is actually stored and implemented on hardware.
+
+#### Includes:
+- File structures
+- Indexes
+- Storage allocation
+- Access methods
