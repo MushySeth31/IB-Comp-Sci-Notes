@@ -74,7 +74,7 @@ WHERE conditions;
 
 #### Comparison Operators
 |Operator|Meaning|
------
+------------------
 |=|equal|
 |!= / <>|not equal|
 |>, <|greater/less|
