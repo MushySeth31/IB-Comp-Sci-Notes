@@ -138,3 +138,50 @@ Describes how the database is actually stored and implemented on hardware.
 - Indexes
 - Storage allocation
 - Access methods
+
+---
+
+## Database Normalization
+The process of organizing data in a database to reduce redundancy and improve data integrity and consistency.
+
+In short: Dividing large tables into smaller, related tables.
+
+#### Unnormalized table:
+- Duplicate data
+- Unorganized
+
+#### Normalized table:
+- Reduced duplicates
+- Organized
+- Consistent
+
+### Problems without normalization
+#### Update Anomaly
+When a value must be updated in many places.
+
+#### Insertion Anomaly
+When new data cannot be added without other unrelated data.
+
+#### Deletion Anomaly
+When deleting a record unintentionally removes important data.
+
+### Forms of Normalization
+#### First Normal Form (1NF)
+- Each field contains atomic (indivisible) values
+- No repeating groups
+- Each record can be easily identified by a primary key
+
+#### Second Normal Form (2NF)
+- Must be in 1NF
+- All non-key attributes depend on the entire primary key (No partial dependecies)
+
+#### Third Normal Form (3NF)
+- Must be in 2NF
+- No transitive dependencies
+
+### Types of Dependencies
+#### Partial dependency
+A non-key attribute is dependent on only a part of a primary key.
+
+#### Transitive dependency
+A non-key attribute depends on another non-key attribute.
