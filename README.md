@@ -2,11 +2,8 @@
 
 Structured notes for IB Computer Science HL.
 
+For personal use. Open-sourced for everyone.
+
 ## Structure
 - Theme A: Concepts of Computer Science
 - Theme B: Computational Thinking and Problem-Solving
-
-## Purpose
-- Deep understanding
-- Exam-style mastery
-- Structured revision
